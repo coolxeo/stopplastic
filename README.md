@@ -5,7 +5,7 @@ We are acumulating plastic everywhere and there are already lot of alternatives.
 
 The idea is that project creators can come to the platform to promote their projects. The visitors of the website can contribute with micro donations to these projects
 
-The project uses Money Button and Unwriter fantastic tools(BitDB, Datapay and Databutton)
+The project uses **MoneyButton** and Unwriter fantastic tools(**BitDB**, **Datapay** and **Databutton**). I don´t use any backend or database, just the blockchain :)
 
 ## How to run the project?
 The project is just a react application, you can run a developer version by running
@@ -44,9 +44,7 @@ https://genesis.bitdb.network/query/1FnauZ9aUH2Bex6JzdcV4eNX7oLSSEbxtN/ewogICJ2I
 }
 ```
 
-After the query is executed we join outputs (confirmed & unconfirmed) and filter by projects that have image, title and description
-
-
+After the query is executed we join outputs (confirmed & unconfirmed) and filter by projects that have image, title and description. We render the projects and we add a moneybutton to contribute back to the **"to"** address that the project manager defined when they setup the project
 
 
 ## Origins
