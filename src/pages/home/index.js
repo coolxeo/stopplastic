@@ -2,8 +2,6 @@ import React from "react";
 import HeroSection from "./../../components/HeroSection";
 import CtaSection2 from "./../../components/CtaSection2";
 import ContentCardsSection from "./../../components/ContentCardsSection";
-import ClientsSection from "./../../components/ClientsSection";
-import TestimonialsSection from "./../../components/TestimonialsSection";
 import CtaSection from "./../../components/CtaSection";
 import CreateProject from './../../coreComponents/CreateProject';
 import { useRouter } from "./../../util/router.js";
@@ -42,18 +40,6 @@ function HomePage(props) {
         subtitle=""
       />
       <CreateProject />
-      <ClientsSection
-        color="light"
-        size="medium"
-        title="You're in good company"
-        subtitle=""
-      />
-      <TestimonialsSection
-        color="white"
-        size="medium"
-        title="Here's what people are saying"
-        subtitle=""
-      />
       <CtaSection
         color="primary"
         size="medium"
@@ -61,7 +47,7 @@ function HomePage(props) {
         subtitle=""
         buttonText="Get Started"
         buttonOnClick={() => {
-          router.push("/pricing");
+          router.push("/");
         }}
       />
     </>

@@ -1,7 +1,7 @@
 # StopPlastic.app
 
 ## Why StopPlastic.app?
-We are acumulating plastic everywhere and there are already lot of alternatives. By creating projects and providing them with support we contribute to reduce the problem of the plastic waste
+We are accumulating plastic everywhere and there are already a lot of alternatives. By creating projects and providing them with the support we contribute to reducing the problem of the plastic waste
 
 The idea is that project creators can come to the platform to promote their projects. The visitors of the website can contribute with micro donations to these projects
 
